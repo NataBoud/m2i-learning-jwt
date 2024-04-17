@@ -1,0 +1,132 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "m2ilearning-laravel",
+    "dateExported": "2024-04-17T12:13:56.764Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "c8c92bb1-64ed-40c0-9cf2-758261d98d23",
+            "colId": "92ceb19a-ea0d-4015-beb0-04f03bc88c6e",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:8000/api/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-04-17T11:57:31.062Z",
+            "modified": "2024-04-17T12:01:49.898Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"arthur@gmail.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e7fcdb28-54d8-454c-956c-f9b87f3183c1",
+            "colId": "92ceb19a-ea0d-4015-beb0-04f03bc88c6e",
+            "containerId": "",
+            "name": "GET status",
+            "url": "http://127.0.0.1:8000/api/status",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-17T12:02:15.615Z",
+            "modified": "2024-04-17T12:04:34.637Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE3MTMzNTUzMDksImV4cCI6MTcxMzM1ODkwOSwibmJmIjoxNzEzMzU1MzA5LCJqdGkiOiJLcncyS3gxRW0yM1BlVWlEIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.xkG3LPzJmZgwbA2crplSweJ_U6QW8B-ka9bdomu_ZZ0"
+            }
+        },
+        {
+            "_id": "10710837-dce3-4791-9d9a-b6c99a95660e",
+            "colId": "92ceb19a-ea0d-4015-beb0-04f03bc88c6e",
+            "containerId": "",
+            "name": "GET status by id",
+            "url": "http://127.0.0.1:8000/api/status/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-17T12:05:24.815Z",
+            "modified": "2024-04-17T12:05:39.817Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE3MTMzNTUzMDksImV4cCI6MTcxMzM1ODkwOSwibmJmIjoxNzEzMzU1MzA5LCJqdGkiOiJLcncyS3gxRW0yM1BlVWlEIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.xkG3LPzJmZgwbA2crplSweJ_U6QW8B-ka9bdomu_ZZ0"
+            }
+        },
+        {
+            "_id": "a2363f8b-5970-4186-a168-2fc7aa70b9dd",
+            "colId": "92ceb19a-ea0d-4015-beb0-04f03bc88c6e",
+            "containerId": "",
+            "name": "POST status",
+            "url": "http://127.0.0.1:8000/api/status",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-04-17T12:05:51.535Z",
+            "modified": "2024-04-17T12:06:44.484Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\": \"à réviser\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE3MTMzNTUzMDksImV4cCI6MTcxMzM1ODkwOSwibmJmIjoxNzEzMzU1MzA5LCJqdGkiOiJLcncyS3gxRW0yM1BlVWlEIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.xkG3LPzJmZgwbA2crplSweJ_U6QW8B-ka9bdomu_ZZ0"
+            }
+        },
+        {
+            "_id": "60bb2760-d0cc-41c6-95b6-7004fd3a3221",
+            "colId": "92ceb19a-ea0d-4015-beb0-04f03bc88c6e",
+            "containerId": "",
+            "name": "GET modules",
+            "url": "http://127.0.0.1:8000/api/modules",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-04-17T12:07:03.799Z",
+            "modified": "2024-04-17T12:12:32.021Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE3MTMzNTUzMDksImV4cCI6MTcxMzM1ODkwOSwibmJmIjoxNzEzMzU1MzA5LCJqdGkiOiJLcncyS3gxRW0yM1BlVWlEIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.xkG3LPzJmZgwbA2crplSweJ_U6QW8B-ka9bdomu_ZZ0"
+            }
+        },
+        {
+            "_id": "eb153149-4863-4c35-970e-db9d7f1487c3",
+            "colId": "92ceb19a-ea0d-4015-beb0-04f03bc88c6e",
+            "containerId": "",
+            "name": "GET module by id",
+            "url": "http://127.0.0.1:8000/api/modules/1",
+            "method": "GET",
+            "sortNum": 55000,
+            "created": "2024-04-17T12:12:39.907Z",
+            "modified": "2024-04-17T12:12:55.036Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE3MTMzNTUzMDksImV4cCI6MTcxMzM1ODkwOSwibmJmIjoxNzEzMzU1MzA5LCJqdGkiOiJLcncyS3gxRW0yM1BlVWlEIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.xkG3LPzJmZgwbA2crplSweJ_U6QW8B-ka9bdomu_ZZ0"
+            }
+        },
+        {
+            "_id": "d98138c1-0924-4b76-8dff-c23546a0a3a2",
+            "colId": "92ceb19a-ea0d-4015-beb0-04f03bc88c6e",
+            "containerId": "",
+            "name": "POST module",
+            "url": "http://127.0.0.1:8000/api/modules",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-04-17T12:07:38.237Z",
+            "modified": "2024-04-17T12:11:17.423Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"Laravel\",\n  \"start\": \"2024-04-10 08:30:00\",\n  \"end\": \"2024-04-30 17:30:00\",\n  \"status_id\": 4 \n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2F1dGgvbG9naW4iLCJpYXQiOjE3MTMzNTUzMDksImV4cCI6MTcxMzM1ODkwOSwibmJmIjoxNzEzMzU1MzA5LCJqdGkiOiJLcncyS3gxRW0yM1BlVWlEIiwic3ViIjoiMSIsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.xkG3LPzJmZgwbA2crplSweJ_U6QW8B-ka9bdomu_ZZ0"
+            }
+        }
+    ]
+}
